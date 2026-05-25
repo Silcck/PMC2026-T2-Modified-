@@ -1,0 +1,51 @@
+Task_ID,Dependencies,Task_Name,Resource_Type,Unit_Value_EUR,Unit_of_Measure,Quantity_Needed,Total_Cost,Crashability,Crash_Price_Increase_Pct
+T001,,Site Preparation & Excavation,Cost of Material,0.0,m3,0,0.0,Yes,
+T001,,Site Preparation & Excavation,Cost of Labour,37.73,h,80,3018.35,Yes,23%
+T002,T001,Foundation Concrete Pouring,Cost of Material,127.3,m3,60,7638.0,Yes,
+T002,T001,Foundation Concrete Pouring,Cost of Labour,41.75,h,120,5010.47,Yes,20%
+T003,T002,Foundation Concrete Curing,Cost of Material,40.84,day,28,1143.58,No,
+T003,T002,Foundation Concrete Curing,Cost of Labour,0.0,h,0,0.0,No,
+T004,T003,Ground Floor Slab Pouring,Cost of Material,127.24,m3,45,5725.95,Yes,
+T004,T003,Ground Floor Slab Pouring,Cost of Labour,34.26,h,90,3083.14,Yes,10%
+T005,T004,Ground Floor Slab Curing,Cost of Material,55.08,day,28,1542.15,No,
+T005,T004,Ground Floor Slab Curing,Cost of Labour,0.0,h,0,0.0,No,
+T006,T005,First Floor Columns & Walls,Cost of Material,118.64,m3,50,5932.21,Yes,
+T006,T005,First Floor Columns & Walls,Cost of Labour,42.47,h,160,6795.99,Yes,15%
+T007,T006,First Floor Slab Pouring,Cost of Material,86.04,m3,45,3871.99,Yes,
+T007,T006,First Floor Slab Pouring,Cost of Labour,25.0,h,90,2250.13,Yes,25%
+T008,T007,First Floor Slab Curing,Cost of Material,109.31,day,28,3060.62,No,
+T008,T007,First Floor Slab Curing,Cost of Labour,0.0,h,0,0.0,No,
+T009,T008,Second Floor Columns & Walls,Cost of Material,19.84,m3,50,992.11,Yes,
+T009,T008,Second Floor Columns & Walls,Cost of Labour,42.82,h,160,6851.08,Yes,23%
+T010,T009,Roof Structure & Pouring,Cost of Material,30.85,m3,40,1234.02,Yes,
+T010,T009,Roof Structure & Pouring,Cost of Labour,29.05,h,100,2904.79,Yes,28%
+T011,T010,Roof Concrete Curing,Cost of Material,122.43,day,28,3428.1,No,
+T011,T010,Roof Concrete Curing,Cost of Labour,0.0,h,0,0.0,No,
+T012,T008,External Masonry & Insulation,Cost of Material,62.9,m2,250,15724.1,Yes,
+T012,T008,External Masonry & Insulation,Cost of Labour,32.03,h,300,9609.7,Yes,11%
+T013,T011,Internal Partitions,Cost of Material,77.06,m2,350,26971.14,Yes,
+T013,T011,Internal Partitions,Cost of Labour,42.17,h,400,16868.93,Yes,11%
+T014,T013,Plumbing Rough-in,Cost of Material,70.46,m,150,10568.45,Yes,
+T014,T013,Plumbing Rough-in,Cost of Labour,27.44,h,120,3292.22,Yes,29%
+T015,T013,Electrical Rough-in,Cost of Material,17.64,m,500,8820.74,Yes,
+T015,T013,Electrical Rough-in,Cost of Labour,33.67,h,160,5387.09,Yes,24%
+T016,T013,HVAC Installation,Cost of Material,18.08,unit,1,18.08,Yes,
+T016,T013,HVAC Installation,Cost of Labour,36.52,h,80,2921.89,Yes,18%
+T017,"T014,T015,T016",Floor Screed,Cost of Material,26.58,m2,300,7973.37,Yes,
+T017,"T014,T015,T016",Floor Screed,Cost of Labour,34.2,h,150,5130.36,Yes,28%
+T018,T017,Floor Screed Curing,Cost of Material,99.57,day,21,2090.97,No,
+T018,T017,Floor Screed Curing,Cost of Labour,0.0,h,0,0.0,No,
+T019,T012,Windows & Doors Installation,Cost of Material,105.35,cad,20,2106.94,Yes,
+T019,T012,Windows & Doors Installation,Cost of Labour,33.86,h,80,2708.9,Yes,23%
+T020,T018,Internal Plastering,Cost of Material,104.46,m2,700,73123.84,Yes,
+T020,T018,Internal Plastering,Cost of Labour,27.08,h,250,6769.55,Yes,28%
+T021,T020,Tiling and Flooring,Cost of Material,147.03,m2,300,44107.67,Yes,
+T021,T020,Tiling and Flooring,Cost of Labour,33.25,h,300,9974.45,Yes,11%
+T022,"T021,T019",Painting,Cost of Material,89.48,m2,700,62636.03,Yes,
+T022,"T021,T019",Painting,Cost of Labour,37.44,h,200,7487.71,Yes,11%
+T023,T021,Plumbing Fixtures,Cost of Material,86.93,cad,15,1303.96,Yes,
+T023,T021,Plumbing Fixtures,Cost of Labour,30.42,h,60,1825.37,Yes,23%
+T024,T022,Electrical Fixtures,Cost of Material,125.84,cad,80,10066.85,Yes,
+T024,T022,Electrical Fixtures,Cost of Labour,42.26,h,100,4225.99,Yes,14%
+T025,"T023,T024",Final Cleaning & Handover,Cost of Material,0.0,h,0,0.0,Yes,
+T025,"T023,T024",Final Cleaning & Handover,Cost of Labour,37.1,h,40,1484.07,Yes,26%
