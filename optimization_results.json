@@ -1,0 +1,16 @@
+{
+    "initial_duration": 385161.2349999978,
+    "initial_cost": 92030966.37,
+    "crashes": {
+        "target": 385150.0,
+        "final_duration": 385161.2349999978,
+        "final_cost": 92030966.37,
+        "tasks_affected": []
+    },
+    "relaxations": {
+        "target": 92030000.0,
+        "final_cost": 92030966.37,
+        "final_duration": 385161.2349999978,
+        "tasks_affected": []
+    }
+}
